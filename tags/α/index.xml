@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Α on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/tags/%CE%B1/</link>
+    <description>Recent content in Α on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/tags/%CE%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hexo源码阅读</title>
+      <link>https://dyson-wang.github.io/ivy/posts/hexo%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Sun, 24 Mar 2024 07:39:16 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/hexo%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</guid>
+      <description>hexo源码阅读pkg bluebird promise库 tildify 绝对路径转~ warehouse json数据库 picocolors 终端输出格式化与ANSI颜色</description>
+    </item>
+    <item>
+      <title>Hexotable</title>
+      <link>https://dyson-wang.github.io/ivy/posts/hexotable/</link>
+      <pubDate>Sun, 24 Mar 2024 06:59:02 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/hexotable/</guid>
+      <description>Hexotable一个notable和hexo的md编写+博客发布的工具notable负责GUI下的md文档编写，hexo格式化md文档并且</description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>https://dyson-wang.github.io/ivy/posts/c/</link>
+      <pubDate>Sun, 24 Mar 2024 05:18:19 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/c/</guid>
+      <description>CWindowsLinux</description>
+    </item>
+    <item>
+      <title>P</title>
+      <link>https://dyson-wang.github.io/ivy/posts/p/</link>
+      <pubDate>Sun, 24 Mar 2024 05:16:14 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/p/</guid>
+      <description>PiOSCookie</description>
+    </item>
+    <item>
+      <title>物联网与云计算</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E4%BA%91%E8%AE%A1%E7%AE%97/</link>
+      <pubDate>Wed, 20 Mar 2024 09:06:15 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E4%BA%91%E8%AE%A1%E7%AE%97/</guid>
+      <description>物联网与云计算标准化在实现大规模物联网应用中扮演着至关重要的角色，其作用包括： 互操作性： 标准化确保了不同厂商生产的物联网设备和系统可以互相通</description>
+    </item>
+  </channel>
+</rss>

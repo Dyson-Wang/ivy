@@ -1,0 +1,850 @@
+<!doctype html>
+<html class="scroll-smooth" lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      id="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>
+      page |
+          ivy
+    </title><meta name="application-name" content="Dyson ivy" />
+<meta name="apple-mobile-web-app-title" content="Dyson ivy" />
+
+
+  <meta name="title" content="404 Page not found" />
+
+
+
+  <meta name="description" content="Dyson&#39;s Blogs" />
+<meta name="theme-color" content="#ffffff" /><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<link href="/ivy/css/styles.min.d08a3efd96c8c5b1fdce5a0f8de0bcafeaa6a600ecc8d2ac7264495de975c0ac.css" rel="stylesheet" />
+
+<link href="/ivy/css/custom.min.a3576bac66c3a82b69d83286136700cfa409d13273e51b6505482a06e6dd109d.css" rel="stylesheet" />
+<script src="/ivy/js/third-party/flowbite/v2.2.1/flowbite.min.js" defer></script>
+<script>
+  
+  if (
+    localStorage.getItem("color-theme") === "dark" ||
+    (!("color-theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+  </head>
+  <body class="flex h-screen flex-col bg-white dark:bg-gray-900"><nav
+  id="navbar"
+  class="fixed start-0 top-0 z-20 flex w-full justify-center border-b border-gray-200 bg-white/85 backdrop-blur-md md:h-38 dark:border-gray-700 dark:bg-gray-900/85">
+  <div
+    class="mx-auto flex w-[1280px] flex-wrap items-center justify-between place-self-center object-center p-4">
+    
+    
+    <a
+      href="https://dyson-wang.github.io/ivy/"
+      class="flex items-center justify-start space-x-3 rtl:space-x-reverse">
+      
+      <p class="w-[56px]">
+        
+        
+          
+        
+        <img
+          id="logo-light-icon"
+          src="/images/black_17.svg"
+          class="h-[56px]"
+          alt="Logo" />
+        <img
+          id="logo-dark-icon"
+          src="/images/white_17.svg"
+          class="hidden h-[56px]"
+          alt="Logo" />
+      </p><span
+          class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white"
+          >ivy</span
+        ></a>
+
+    
+    <div class="flex items-center space-x-3 md:order-2 rtl:space-x-reverse">
+      <button
+        id="theme-toggle"
+        type="button"
+        class="h-10 w-10 p-2.5 text-sm text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700">
+        <svg
+          id="theme-toggle-dark-icon"
+          class="hidden h-5 w-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+        </svg>
+        <svg
+          id="theme-toggle-light-icon"
+          class="hidden h-5 w-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+            fill-rule="evenodd"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+      
+      
+
+      
+      <button
+        data-collapse-toggle="navbar-sticky"
+        type="button"
+        class="inline-flex h-10 w-10 items-center justify-center p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none md:hidden dark:text-gray-400 dark:hover:bg-gray-700"
+        aria-controls="navbar-sticky"
+        aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="h-5 w-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14">
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+    </div>
+
+    <div
+  class="hidden w-full items-center justify-between md:order-1 md:flex md:w-auto"
+  id="navbar-sticky">
+  <ul
+    class="mt-4 flex flex-col rounded-lg border border-gray-300 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse dark:border-gray-700 dark:bg-gray-800/50 md:dark:bg-transparent">
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/banner/">
+            
+            About
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/posts/">
+            
+            Posts
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/archive">
+            
+            Archive
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/goods/">
+            
+            Goods
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          
+          <button
+            id="dropdownNavbarLink-d50ae403"
+            data-dropdown-toggle="dropdownNavbar-d50ae403"
+            class="flex w-full items-center justify-between rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+            Releases
+            <svg
+              class="ms-2.5 h-2.5 w-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4" />
+            </svg>
+          </button>
+
+          <div
+            id="dropdownNavbar-d50ae403"
+            class="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-white font-normal shadow dark:divide-gray-600 dark:bg-gray-800">
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton">
+              
+                <li>
+                  <a
+                    href="/ivy/"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >with waline</a
+                  >
+                </li>
+              
+                <li>
+                  <a
+                    href="/ivy/"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >with twikoo</a
+                  >
+                </li>
+              
+
+            </ul>
+          </div>
+        
+      </li>
+    
+
+    
+      <button
+        id="dropdownNavbarLink-category"
+        data-dropdown-toggle="dropdownNavbar-category"
+        class="flex w-full items-center justify-between rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+        Category
+        <svg
+          class="ms-2.5 h-2.5 w-2.5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 10 6">
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m1 1 4 4 4-4" />
+        </svg>
+      </button>
+
+      <div
+        id="dropdownNavbar-category"
+        class="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-white font-normal shadow dark:divide-gray-600 dark:bg-gray-800">
+        <ul
+          class="py-2 text-sm text-gray-700 dark:text-gray-400"
+          aria-labelledby="dropdownLargeButton">
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/new-define/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >New Define</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/server/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >Server</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%CE%B1/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >Α</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E4%B8%AA%E4%BA%BA/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >个人</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E5%85%B3%E4%BA%8E/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >关于</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E5%8D%9A%E5%AE%A2/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >博客</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E6%95%99%E7%A8%8B/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >教程</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E6%96%87%E6%A1%A3/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >文档</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E6%96%87%E7%8C%AE/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >文献</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E7%BC%96%E7%A8%8B/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >编程</a
+              >
+            </li>
+          
+        </ul>
+      </div>
+    
+  </ul>
+</div>
+</div>
+</nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let navbarDom = document.getElementById("navbar");
+    let isNavScrolled = false;
+
+    if (window.innerWidth >= 768) {
+      navbarDom.classList.add("navbar-init");
+
+      var scrollTop = 0;
+
+      window.addEventListener("scroll", function () {
+        scrollTop = window.pageYOffset;
+
+        if (scrollTop >= 10 && !isNavScrolled) {
+          isNavScrolled = true;
+          navbarDom.classList.add("navbar-scroll");
+        } else if (scrollTop < 10 && isNavScrolled) {
+          isNavScrolled = false;
+          navbarDom.classList.remove("navbar-scroll");
+        }
+      });
+    } else {
+      navbarDom.classList.remove("navbar-init");
+    }
+  });
+</script>
+
+  <div
+    class="mt-22 flex max-h-screen w-full grow flex-col items-center justify-center space-x-8 space-y-16 lg:flex-row lg:space-y-0 2xl:space-x-0">
+    <div
+      class="flex w-full flex-col items-center justify-center text-center lg:w-1/2 lg:px-2 xl:px-0">
+      <p
+        class="text-7xl font-bold tracking-wider text-gray-300 md:text-8xl lg:text-9xl">
+        404
+      </p>
+      <p
+        class="mt-2 text-4xl font-bold tracking-wider text-gray-300 md:text-5xl lg:text-6xl">
+        Page Not Found
+      </p>
+      <p class="my-12 text-lg text-gray-500 md:text-xl lg:text-2xl">
+        Sorry, the page you are looking for could not be found.
+      </p>
+      <a
+        href="https://dyson-wang.github.io/ivy/"
+        class="flex items-center space-x-2 rounded bg-blue-600 px-4 py-2 text-gray-100 transition duration-150 hover:bg-blue-700"
+        title="Return Home">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor">
+          <path
+            fill-rule="evenodd"
+            d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <span>Return Home</span>
+      </a>
+    </div>
+    <div class="flex w-1/2 justify-center p-4 lg:h-full lg:items-end">
+      <svg
+        class="w-full text-blue-600"
+        xmlns="http://www.w3.org/2000/svg"
+        data-name="Layer 1"
+        viewBox="0 0 1120.59226 777.91584"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>not found</title>
+        <circle cx="212.59226" cy="103" r="64" fill="#ff6584"></circle>
+        <path
+          d="M563.68016,404.16381c0,151.01141-89.77389,203.73895-200.51559,203.73895S162.649,555.17522,162.649,404.16381,363.16457,61.04208,363.16457,61.04208,563.68016,253.1524,563.68016,404.16381Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="#cbd5e1"></path>
+        <polygon
+          points="316.156 523.761 318.21 397.378 403.674 241.024 318.532 377.552 319.455 320.725 378.357 207.605 319.699 305.687 319.699 305.687 321.359 203.481 384.433 113.423 321.621 187.409 322.658 0 316.138 248.096 316.674 237.861 252.547 139.704 315.646 257.508 309.671 371.654 309.493 368.625 235.565 265.329 309.269 379.328 308.522 393.603 308.388 393.818 308.449 394.99 293.29 684.589 313.544 684.589 315.974 535.005 389.496 421.285 316.156 523.761"
+          fill="#3f3d56"></polygon>
+        <path
+          d="M1160.29613,466.01367c0,123.61-73.4842,166.77-164.13156,166.77s-164.13156-43.16-164.13156-166.77S996.16457,185.15218,996.16457,185.15218,1160.29613,342.40364,1160.29613,466.01367Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="#cbd5e1"></path>
+        <polygon
+          points="950.482 552.833 952.162 449.383 1022.119 321.4 952.426 433.154 953.182 386.639 1001.396 294.044 953.382 374.329 953.382 374.329 954.741 290.669 1006.369 216.952 954.954 277.514 955.804 124.11 950.467 327.188 950.906 318.811 898.414 238.464 950.064 334.893 945.173 428.327 945.027 425.847 884.514 341.294 944.844 434.608 944.232 446.293 944.123 446.469 944.173 447.428 931.764 684.478 948.343 684.478 950.332 562.037 1010.514 468.952 950.482 552.833"
+          fill="#3f3d56"></polygon>
+        <ellipse
+          cx="554.59226"
+          cy="680.47903"
+          rx="554.59226"
+          ry="28.03433"
+          fill="#3f3d56"></ellipse>
+        <ellipse
+          cx="892.44491"
+          cy="726.79663"
+          rx="94.98858"
+          ry="4.80162"
+          fill="#3f3d56"></ellipse>
+        <ellipse
+          cx="548.71959"
+          cy="773.11422"
+          rx="94.98858"
+          ry="4.80162"
+          fill="#3f3d56"></ellipse>
+        <ellipse
+          cx="287.94432"
+          cy="734.27887"
+          rx="217.01436"
+          ry="10.96996"
+          fill="#3f3d56"></ellipse>
+        <circle cx="97.08375" cy="566.26982" r="79" fill="#2f2e41"></circle>
+        <rect
+          x="99.80546"
+          y="689.02332"
+          width="24"
+          height="43"
+          transform="translate(-31.32451 -62.31008) rotate(0.67509)"
+          fill="#2f2e41"></rect>
+        <rect
+          x="147.80213"
+          y="689.58887"
+          width="24"
+          height="43"
+          transform="translate(-31.31452 -62.87555) rotate(0.67509)"
+          fill="#2f2e41"></rect>
+        <ellipse
+          cx="119.54569"
+          cy="732.61606"
+          rx="7.5"
+          ry="20"
+          transform="translate(-654.1319 782.47948) rotate(-89.32491)"
+          fill="#2f2e41"></ellipse>
+        <ellipse
+          cx="167.55414"
+          cy="732.18168"
+          rx="7.5"
+          ry="20"
+          transform="translate(-606.25475 830.05533) rotate(-89.32491)"
+          fill="#2f2e41"></ellipse>
+        <circle cx="99.31925" cy="546.29477" r="27" fill="#fff"></circle>
+        <circle cx="99.31925" cy="546.29477" r="9" fill="#3f3d56"></circle>
+        <path
+          d="M61.02588,552.94636c-6.04185-28.64075,14.68758-57.26483,46.30049-63.93367s62.13813,11.14292,68.18,39.78367-14.97834,38.93-46.59124,45.59886S67.06774,581.58712,61.02588,552.94636Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="currentColor"></path>
+        <path
+          d="M257.29613,671.38411c0,55.07585-32.73985,74.3063-73.13,74.3063q-1.40351,0-2.80255-.0312c-1.87139-.04011-3.72494-.1292-5.55619-.254-36.45135-2.57979-64.77127-22.79937-64.77127-74.02113,0-53.00843,67.73872-119.89612,72.827-124.84633l.00892-.00889c.19608-.19159.29409-.28516.29409-.28516S257.29613,616.30827,257.29613,671.38411Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="currentColor"></path>
+        <path
+          d="M181.50168,737.26482l26.747-37.37367-26.81386,41.4773-.07125,4.29076c-1.87139-.04011-3.72494-.1292-5.55619-.254l2.88282-55.10258-.0223-.42775.049-.0802.27179-5.20415-26.88076-41.5798,26.96539,37.67668.06244,1.105,2.17874-41.63324-23.0132-42.96551,23.29391,35.6583,2.26789-86.31419.00892-.294v.28516l-.37871,68.064,22.91079-26.98321-23.00435,32.84678-.60595,37.27566L204.18523,621.958l-21.4805,41.259-.33863,20.723,31.05561-49.79149-31.17146,57.023Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="#3f3d56"></path>
+        <circle cx="712.48505" cy="565.41532" r="79" fill="#2f2e41"></circle>
+        <rect
+          x="741.77716"
+          y="691.82355"
+          width="24"
+          height="43"
+          transform="translate(-215.99457 191.86399) rotate(-17.08345)"
+          fill="#2f2e41"></rect>
+        <rect
+          x="787.6593"
+          y="677.72286"
+          width="24"
+          height="43"
+          transform="matrix(0.95588, -0.29376, 0.29376, 0.95588, -209.82788, 204.72037)"
+          fill="#2f2e41"></rect>
+        <ellipse
+          cx="767.887"
+          cy="732.00275"
+          rx="20"
+          ry="7.5"
+          transform="translate(-220.8593 196.83312) rotate(-17.08345)"
+          fill="#2f2e41"></ellipse>
+        <ellipse
+          cx="813.47537"
+          cy="716.94619"
+          rx="20"
+          ry="7.5"
+          transform="translate(-214.42477 209.56103) rotate(-17.08345)"
+          fill="#2f2e41"></ellipse>
+        <circle cx="708.52153" cy="545.71023" r="27" fill="#fff"></circle>
+        <circle cx="708.52153" cy="545.71023" r="9" fill="#3f3d56"></circle>
+        <path
+          d="M657.35526,578.74316c-14.48957-25.43323-3.47841-59.016,24.59412-75.0092s62.57592-8.34055,77.06549,17.09268-2.39072,41.6435-30.46325,57.63671S671.84483,604.17639,657.35526,578.74316Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="currentColor"></path>
+        <path
+          d="M611.29613,661.29875c0,50.55711-30.05368,68.20979-67.13,68.20979q-1.28835,0-2.57261-.02864c-1.71785-.03682-3.41933-.1186-5.10033-.23313-33.46068-2.36813-59.45707-20.92878-59.45707-67.948,0-48.65932,62.18106-110.05916,66.85186-114.60322l.00819-.00817c.18-.17587.27-.26177.27-.26177S611.29613,610.74164,611.29613,661.29875Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="currentColor"></path>
+        <path
+          d="M541.72029,721.77424l24.55253-34.30732-24.6139,38.07426-.0654,3.93872c-1.71785-.03682-3.41933-.1186-5.10033-.23313l2.6463-50.58165-.02047-.39266.045-.07361.24949-4.77718-24.67531-38.16836,24.753,34.58547.05731,1.01433,2-38.21741-21.12507-39.44039L541.80616,625.928l2.08182-79.23247.00819-.26994v.26177l-.34764,62.47962,21.031-24.76934-21.11693,30.15184-.55624,34.21735,19.63634-32.839-19.71812,37.87389-.31085,19.0228,28.50763-45.70631-28.614,52.34448Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="#3f3d56"></path>
+        <path
+          d="M875.29613,682.38411c0,55.07585-32.73985,74.3063-73.13,74.3063q-1.4035,0-2.80255-.0312c-1.87139-.04011-3.72494-.1292-5.55619-.254-36.45135-2.57979-64.77127-22.79937-64.77127-74.02113,0-53.00843,67.73872-119.89612,72.827-124.84633l.00892-.00889c.19608-.19159.29409-.28516.29409-.28516S875.29613,627.30827,875.29613,682.38411Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="currentColor"></path>
+        <path
+          d="M799.50168,748.26482l26.747-37.37367-26.81386,41.4773-.07125,4.29076c-1.87139-.04011-3.72494-.1292-5.55619-.254l2.88282-55.10258-.0223-.42775.049-.0802.27179-5.20415L770.108,654.01076l26.96539,37.67668.06244,1.105,2.17874-41.63324-23.0132-42.96551,23.29391,35.6583,2.26789-86.31419.00892-.294v.28516l-.37871,68.064,22.91079-26.98321-23.00435,32.84678-.606,37.27566L822.18523,632.958l-21.4805,41.259-.33863,20.723,31.05561-49.79149-31.17146,57.023Z"
+          transform="translate(-39.70387 -61.04208)"
+          fill="#3f3d56"></path>
+        <ellipse
+          cx="721.51694"
+          cy="656.82212"
+          rx="12.40027"
+          ry="39.5"
+          transform="translate(-220.83517 966.22323) rotate(-64.62574)"
+          fill="#2f2e41"></ellipse>
+        <ellipse
+          cx="112.51694"
+          cy="651.82212"
+          rx="12.40027"
+          ry="39.5"
+          transform="translate(-574.07936 452.71367) rotate(-68.15829)"
+          fill="#2f2e41"></ellipse>
+      </svg>
+    </div>
+  </div>
+
+
+    <footer
+  class="mx-auto flex w-full max-w-screen-xl flex-col-reverse items-center gap-y-3 border-t border-gray-200 py-6 md:px-12 lg:flex-row lg:justify-between dark:border-gray-700">
+  
+  <div
+    class="flex flex-col items-center justify-between space-y-3 text-xs text-gray-400 lg:items-start dark:text-gray-500">
+    
+    <div class="items-center font-Montserrat font-light">
+      &copy;
+      
+      
+      
+        2024
+      
+
+      Dyson Wang. All Rights Reserved
+    </div>
+  </div>
+
+  
+  <div
+    class="flex flex-row items-center font-Montserrat text-xs font-light text-gray-400 dark:text-gray-500">
+    <span>Powered By</span>
+    <a href="https://gohugo.io/" aria-label="hugo link">
+      <img
+        src="/images/default/hugo-logo-wide.svg"
+        alt="Hugo"
+        class="mx-1 h-3" />
+    </a>
+    <span> &#8739; Based on Theme</span>
+    <a
+      href="https://github.com/mrhelloboy/seven"
+      aria-label="The github address of seven theme"
+      class="">
+      <img
+        id="footer-theme-light-logo"
+        src="/images/default/seven-logo.svg"
+        alt="seven theme logo"
+        class="mx-1 h-5" />
+
+      <img
+        id="footer-theme-dark-logo"
+        src="/images/default/seven-logo-dark.svg"
+        alt="seven theme logo"
+        class="mx-1 hidden h-5" />
+    </a>
+  </div>
+
+  
+  <div
+    class="mt-4 flex space-x-5 sm:justify-center md:mt-0 rtl:space-x-reverse">
+    
+      
+      
+
+      
+
+      
+
+      
+    
+      
+        <a
+          href="mailto:dyson.wang@outlook.com"
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 1024 1024"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M513 583.8l448.5-448.5c-11.6-4.7-24.3-7.3-37.5-7.3H100c-12.7 0-24.9 2.4-36.1 6.7L513 583.8z"
+              p-id="88208"></path>
+            <path
+              d="M513 674.3L14.6 175.9C5.3 191.1 0 208.9 0 228v568c0 55.2 44.8 100 100 100h824c55.2 0 100-44.8 100-100V228c0-18.5-5.1-35.9-13.9-50.8L513 674.3z"
+              p-id="88209"></path>
+          </svg>
+          <span class="sr-only">Email page</span>
+        </a>
+      
+      
+
+      
+
+      
+
+      
+    
+      
+      
+        <a
+          href=""
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 8 19">
+            <path
+              fill-rule="evenodd"
+              d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="sr-only">Facebook page</span>
+        </a>
+      
+
+      
+
+      
+
+      
+    
+      
+      
+
+      
+
+      
+        <a
+          href="https://github.com/Dyson-Wang"
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20">
+            <path
+              fill-rule="evenodd"
+              d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="sr-only">GitHub account</span>
+        </a>
+      
+
+      
+    
+      
+      
+
+      
+
+      
+
+      
+        <button
+          data-popover-target="wechat-popover-no-arrow"
+          type="button"
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            viewBox="0 0 1184 1024"
+            fill="currentColor"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            p-id="1495">
+            <path
+              d="M331.424 263.424q0-23.424-14.272-37.728t-37.728-14.272q-24.576 0-43.424 14.56t-18.848 37.44q0 22.272 18.848 36.864t43.424 14.56q23.424 0 37.728-14.016t14.272-37.44zM756 553.152q0-16-14.56-28.576t-37.44-12.576q-15.424 0-28.288 12.864t-12.864 28.288q0 16 12.864 28.864t28.288 12.864q22.848 0 37.44-12.576t14.56-29.152zM621.152 263.424q0-23.424-14.016-37.728t-37.44-14.272q-24.576 0-43.424 14.56t-18.848 37.44q0 22.272 18.848 36.864t43.424 14.56q23.424 0 37.44-14.016t14.016-37.44zM984 553.152q0-16-14.848-28.576t-37.152-12.576q-15.424 0-28.288 12.864t-12.864 28.288q0 16 12.864 28.864t28.288 12.864q22.272 0 37.152-12.576t14.848-29.152zM832 326.272q-17.728-2.272-40-2.272-96.576 0-177.728 44t-127.712 119.136-46.56 164.288q0 44.576 13.152 86.848-20 1.728-38.848 1.728-14.848 0-28.576-0.864t-31.424-3.712-25.44-4-31.136-6.016-28.576-6.016l-144.576 72.576 41.152-124.576q-165.728-116-165.728-280 0-96.576 55.712-177.728t150.848-127.712 207.712-46.56q100.576 0 190.016 37.728t149.728 104.288 78.016 148.864zM1170.272 646.848q0 66.848-39.136 127.712t-106.016 110.56l31.424 103.424-113.728-62.272q-85.728 21.152-124.576 21.152-96.576 0-177.728-40.288t-127.712-109.44-46.56-150.848 46.56-150.848 127.712-109.44 177.728-40.288q92 0 173.152 40.288t130.016 109.728 48.864 150.56z"
+              p-id="1496"></path>
+          </svg>
+        </button>
+
+        <div
+          data-popover
+          id="wechat-popover-no-arrow"
+          role="tooltip"
+          class="invisible absolute z-10 inline-block hidden w-52 overflow-hidden rounded-lg border border-gray-100 bg-white text-sm text-gray-500 opacity-0 shadow-sm transition-opacity duration-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400">
+          <ul class="text-sm text-gray-700 dark:text-gray-200">
+            
+              <li>
+                <img src="/images/society/wechat/wechat.png" alt="" />
+              </li>
+            
+          </ul>
+        </div>
+      
+    
+      
+      
+
+      
+        <a
+          href=""
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 20 20">
+            <path
+              fill="currentColor"
+              d="M12.186 8.672 18.743.947h-2.927l-5.005 5.9-4.44-5.9H0l7.434 9.876-6.986 8.23h2.927l5.434-6.4 4.82 6.4H20L12.186 8.672Zm-2.267 2.671L8.544 9.515 3.2 2.42h2.2l4.312 5.719 1.375 1.828 5.731 7.613h-2.2l-4.699-6.237Z" />
+          </svg>
+
+          <span class="sr-only">X page</span>
+        </a>
+      
+
+      
+
+      
+    
+
+    
+    
+      <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+  <svg
+    class="h-4 w-4"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 21 16">
+    <path
+      d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+  </svg>
+  <span class="sr-only">Discord community</span>
+</a>
+
+<a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+  <svg
+    class="h-4 w-4"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 20 20">
+    <path
+      fill-rule="evenodd"
+      d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+      clip-rule="evenodd" />
+  </svg>
+  <span class="sr-only">Dribbble account</span>
+</a>
+
+    
+
+  </div>
+</footer>
+
+<script>
+  var matches = document.querySelectorAll("button[data-popover-target]");
+  for (var i = 0; i < matches.length; i++) {
+    let id = matches[i].getAttribute("data-popover-target");
+
+    matches[i].addEventListener("mouseenter", function () {
+      document.getElementById(id).classList.remove("hidden");
+    });
+
+    matches[i].addEventListener("mouseleave", function () {
+      document.getElementById(id).classList.add("hidden");
+    });
+  }
+</script>
+
+
+  
+
+<script src="/ivy/js/dark-mode.min.f4601e5679d2fc365123dbb2569483af6ba487a6873fd698326ba052b1868055.js" defer></script>
+
+</body>
+</html>

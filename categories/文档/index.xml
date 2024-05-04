@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文档 on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/categories/%E6%96%87%E6%A1%A3/</link>
+    <description>Recent content in 文档 on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/categories/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>openmp</title>
+      <link>https://dyson-wang.github.io/ivy/posts/openmp/</link>
+      <pubDate>Thu, 28 Dec 2023 07:17:56 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/openmp/</guid>
+      <description>openmp-p1. 90-1000-146146 2. 121-1000-204525 3. 52-1000-60153 4. 36-1000-61632 5. 88-1000-174049 6. 170-171-205061 7. 144-145-235589 8. 198-199-371482 -c1. 143-21-13752 2. 106-27-6851 3. 181-21-20332 4. 73-20-3250 5. 163-30-18056</description>
+    </item>
+    <item>
+      <title>Gem5</title>
+      <link>https://dyson-wang.github.io/ivy/posts/gem5/</link>
+      <pubDate>Thu, 02 Nov 2023 06:59:31 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/gem5/</guid>
+      <description>Gem5</description>
+    </item>
+    <item>
+      <title>linux</title>
+      <link>https://dyson-wang.github.io/ivy/posts/linux/</link>
+      <pubDate>Sun, 10 Sep 2023 08:13:34 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/linux/</guid>
+      <description>linuxweb git nodejs docker kubernetes ngnix mariadb gitlab github</description>
+    </item>
+    <item>
+      <title>rocky logs</title>
+      <link>https://dyson-wang.github.io/ivy/posts/rocky-logs/</link>
+      <pubDate>Sat, 24 Jun 2023 01:06:05 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/rocky-logs/</guid>
+      <description>rocky logs安装环境 切换yum源nju mirror 安装net-tools git 2.39.1 tar 1.34 手动全局安装nodejs 配置npm mirror npm get registry npm config set registry https://registry.npmmirror.com yarn config get registry yarn config set registry https://registry.npmmirror.com yum-utils</description>
+    </item>
+    <item>
+      <title>mac</title>
+      <link>https://dyson-wang.github.io/ivy/posts/mac/</link>
+      <pubDate>Tue, 25 Apr 2023 09:10:20 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/mac/</guid>
+      <description>macpython macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download c:\&amp;#34;Program Files&amp;#34;\qemu\qemu-img convert -O vmdk -o compat6 BaseSystem.dmg recovery.vmdk .vmx ethenet0 = &amp;ldquo;vmxnet3&amp;rdquo;</description>
+    </item>
+    <item>
+      <title>Logs</title>
+      <link>https://dyson-wang.github.io/ivy/posts/logs/</link>
+      <pubDate>Wed, 19 Apr 2023 03:23:25 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/logs/</guid>
+      <description>Logs 安装 net-tools 安装 git 安装 nodejs 安装 mariadb-server mysql_secure_installation 00125</description>
+    </item>
+    <item>
+      <title>BND</title>
+      <link>https://dyson-wang.github.io/ivy/posts/bnd/</link>
+      <pubDate>Mon, 17 Apr 2023 12:18:09 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/bnd/</guid>
+      <description>BND设每个用户下每个命名空间，可以单独配置一个数据库用于所建云函数的链接。 新建函数API种类 1、数据库交互 2、静态资源上传与请求 3、函数内</description>
+    </item>
+    <item>
+      <title>Serverless in linux</title>
+      <link>https://dyson-wang.github.io/ivy/posts/serverless-in-linux/</link>
+      <pubDate>Sun, 09 Apr 2023 07:13:31 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/serverless-in-linux/</guid>
+      <description>Serverless in linuxrocky linux 安装 git、nodejsyum install git nodejs</description>
+    </item>
+    <item>
+      <title>三月学习大纲</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E4%B8%89%E6%9C%88%E5%AD%A6%E4%B9%A0%E5%A4%A7%E7%BA%B2/</link>
+      <pubDate>Fri, 24 Feb 2023 11:01:12 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E4%B8%89%E6%9C%88%E5%AD%A6%E4%B9%A0%E5%A4%A7%E7%BA%B2/</guid>
+      <description>三月学习大纲8：00 - 12：00 离散数学 14：00 - 18：00 英语听说、数据库 19：00 - 23：00 LeetCode Dev-C++ 专业课复习</description>
+    </item>
+    <item>
+      <title>graduate exam</title>
+      <link>https://dyson-wang.github.io/ivy/posts/graduate-exam/</link>
+      <pubDate>Sat, 08 Oct 2022 00:53:25 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/graduate-exam/</guid>
+      <description>graduate exam十月底强化结束英语长难句梳理，单词！！！（五星紧急）3h 可以开始做真题了，数二 刷！！！ 政治看课，做每章课后题 3h 李永乐强化视频跟完，</description>
+    </item>
+    <item>
+      <title>rancher monitor api</title>
+      <link>https://dyson-wang.github.io/ivy/posts/rancher-monitor-api/</link>
+      <pubDate>Thu, 22 Sep 2022 08:21:18 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/rancher-monitor-api/</guid>
+      <description>rancher monitor apiCPU SYSTEM URL/k8s/clusters/${cluster-id}/api/v1/namespaces/cattle-monitoring-system/services/http:rancher-monitoring-grafana:80/proxy/api/datasources/proxy/1/api/v1/query_range?query=(sum(rate(container_cpu_system_seconds_total{namespace=~&amp;#34;${namespace-id}&amp;#34;}[240s])) by (pod) OR sum(rate(windows_container_cpu_usage_seconds_kernelmode{namespace=~&amp;#34;${namespace-id}&amp;#34;}[240s])) by (pod)) * on(pod) kube_pod_info{namespace=~&amp;#34;${namespace-id}&amp;#34;, created_by_kind=&amp;#34;${type}&amp;#34;, created_by_name=&amp;#34;${resource-id}&amp;#34;}&amp;amp;start=${time-start}&amp;amp;end=${time-end}&amp;amp;step=${step}</description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://dyson-wang.github.io/ivy/posts/github/</link>
+      <pubDate>Sun, 11 Sep 2022 02:34:29 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/github/</guid>
+      <description>Github 获取GitHub官方CDN地址 首先,打开 The Best IP Address, Email and Networking Tools ​www.ipaddress.com/ 查询以下三个链接的DNS解析地址 github.com assets-cdn.github.com github.global.ssl.fastly.net 140.82.113.4 185.199.108.153 151.101.1.194</description>
+    </item>
+    <item>
+      <title>TO-DO Items</title>
+      <link>https://dyson-wang.github.io/ivy/posts/to-do-items/</link>
+      <pubDate>Sun, 11 Sep 2022 01:43:21 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/to-do-items/</guid>
+      <description>TO-DO ItemsCoding js-cookie npm package react-highlight-words react-router-dom react-ace craco reduxjs/toolkit mathematicsCS BasicsEnglish</description>
+    </item>
+    <item>
+      <title>KT-Cloud-Management</title>
+      <link>https://dyson-wang.github.io/ivy/posts/kt-cloud-management/</link>
+      <pubDate>Tue, 06 Sep 2022 08:15:38 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/kt-cloud-management/</guid>
+      <description>KT-Cloud-Management文件结构自建rancher api 密钥Bearer token-7dtp2:jlmd8csggxwtlz7zgj2m55r6zkxz8rg5znbzrxjbpdxrd6jjtnjwcn // 服务器地址 192.168.131.138 public assets 图片&amp;hellip; css-reset.css 重置全局样式 index.html 根</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1 @@
+let linksMatches=document.querySelectorAll("a[data-title-of-head]");for(let e=0;e<linksMatches.length;e++)linksMatches[e].addEventListener("click",t=>{t.preventDefault();let n=linksMatches[e],s=n.getBoundingClientRect().top+window.scrollY-100;window.scrollTo({top:s,behavior:"smooth"})})

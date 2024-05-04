@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/categories/server/</link>
+    <description>Recent content in Server on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://dyson-wang.github.io/ivy/posts/test/</link>
+      <pubDate>Fri, 03 May 2024 09:04:30 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/test/</guid>
+      <description>test#!/bin/bash # 第一次测试自动化</description>
+    </item>
+    <item>
+      <title>nextcloud</title>
+      <link>https://dyson-wang.github.io/ivy/posts/nextcloud/</link>
+      <pubDate>Fri, 03 May 2024 07:49:10 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/nextcloud/</guid>
+      <description>nextcloudseafilesudo docker run \&#xD;--init \&#xD;--sig-proxy=false \&#xD;--name nextcloud-aio-mastercontainer \&#xD;--restart always \&#xD;--publish 10180:80 \&#xD;--publish 10181:8080 \&#xD;--publish 10183:8443 \&#xD;--volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config \&#xD;--volume /var/run/docker.sock:/var/run/docker.sock:ro \&#xD;nextcloud/all-in-one:latest </description>
+    </item>
+    <item>
+      <title>22_s</title>
+      <link>https://dyson-wang.github.io/ivy/posts/22_s/</link>
+      <pubDate>Mon, 22 Apr 2024 05:20:38 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/22_s/</guid>
+      <description>22_s </description>
+    </item>
+    <item>
+      <title>流量</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E6%B5%81%E9%87%8F/</link>
+      <pubDate>Sat, 20 Apr 2024 13:36:42 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E6%B5%81%E9%87%8F/</guid>
+      <description>流量&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta http-equiv=&amp;#34;Content-Type&amp;#34; content=&amp;#34;text/html; charset=gb2312&amp;#34;&amp;gt; &amp;lt;title&amp;gt;北京工业大学上网信息窗 &amp;lt;/title&amp;gt; &amp;lt;script language=&amp;#34;JavaScript&amp;#34;&amp;gt;&amp;lt;!-- time=&amp;#39;16781 &amp;#39;;flow=&amp;#39;123854027 &amp;#39;;fsele=1;fee=&amp;#39;0 &amp;#39;;xsele=0;xip=&amp;#39;000.000.000.000.&amp;#39;; cvid=0,pvid=0; pwm=1;v6af=6571415;v6df=6477755;uid=&amp;#39;S202374079&amp;#39;;pwd=&amp;#39;&amp;#39;;v46m=4;v4ip=&amp;#39;10.121.23.181&amp;#39;;v6ip=&amp;#39;2001:da8:216:d31f::1:8d28&amp;#39;;// .100&amp;#39;;v6ip=&amp;#39;0000:0000:0000:0000:0000:0000:0000:0000&amp;#39;;//// flow0=flow%1024;flow1=flow-flow0;flow0=flow0*1000;flow0=flow0-flow0%1024;fee1=fee-fee%100; flow3=&amp;#39;.&amp;#39;; if(flow0/1024&amp;lt;10)flow3=&amp;#39;.00&amp;#39;; else{if(flow0/1024&amp;lt;100)flow3=&amp;#39;.0&amp;#39;;} function DispTFM(sele){ switch(sele){ case 0: document</description>
+    </item>
+    <item>
+      <title>sds_logs</title>
+      <link>https://dyson-wang.github.io/ivy/posts/sds_logs/</link>
+      <pubDate>Fri, 19 Apr 2024 11:48:33 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/sds_logs/</guid>
+      <description>sds_logs日志 apt 安装 openssh-server git net-tools curl vim lrzsz influxdb virtualbox vagrant ansible dos2linux 二进制安装/usr/local nodejs java go mariadb(mysql) mongodb deb包安装 docker apt 官方库安装 postgresql redis gitlab sds本地安装con</description>
+    </item>
+    <item>
+      <title>logs</title>
+      <link>https://dyson-wang.github.io/ivy/posts/logs-2/</link>
+      <pubDate>Sat, 03 Feb 2024 14:03:11 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/logs-2/</guid>
+      <description>logsVM installrocky-9.3-x86_64-minimal &amp;ndash; blogs &amp;ndash; env 日志 配置nju源 sudo sed -e &amp;#39;s|^mirrorlist=|#mirrorlist=|g&amp;#39; \ -e &amp;#39;s|^#baseurl=http://dl.rockylinux.org/$contentdir|baseurl=https://mirror.nju.edu.cn/rocky|g&amp;#39; \ -i.bak \ /etc/yum.repos.d/rocky-extras.repo \ /etc/yum.repos.d/rocky.repo dnf makecache yum yum install -y git nodejs net-tools tar git 代理设置 git config --global user.name &amp;#34;Dyson Wang&amp;#34; git config --global user.email &amp;#34;Dyson.Wang@outlook.com&amp;#34; git config --global http.proxy &amp;#39;http://192.168.237.1:7890&amp;#39; git config --global https.proxy &amp;#39;http://192.168.237.1:7890&amp;#39;</description>
+    </item>
+    <item>
+      <title>DIY</title>
+      <link>https://dyson-wang.github.io/ivy/posts/diy/</link>
+      <pubDate>Sat, 03 Feb 2024 13:13:55 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/diy/</guid>
+      <description>DIY 主板 CPU GPU SSD 内存 机箱 电源 散热器 风扇 键盘 鼠标 显示器</description>
+    </item>
+    <item>
+      <title>server</title>
+      <link>https://dyson-wang.github.io/ivy/posts/server/</link>
+      <pubDate>Sun, 07 Jan 2024 06:38:45 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/server/</guid>
+      <description>serverbuild a 数据库服务器 网站服务器 ipv6 DNS2400:3200::1 2001:4860:4860::8888 proxy# system_proxy export proxy=&amp;#34;http://172.21.15.197:2080&amp;#34; export http_proxy=$proxy export https_proxy=$proxy export ftp_proxy=$proxy export no_proxy=&amp;#34;localhost, 127.0.0.1, ::1, 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8&amp;#34; # apt_proxy Acquire::http::Proxy &amp;#34;http://172.21.15.197:2080/&amp;#34;; Acquire::https::Proxy &amp;#34;http://172.21.15.197:2080/&amp;#34;;</description>
+    </item>
+  </channel>
+</rss>

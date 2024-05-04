@@ -1,0 +1,1195 @@
+<!doctype html>
+<html class="scroll-smooth" lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      id="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>
+      
+  tag - 个人 |
+  ivy
+
+    </title><meta name="application-name" content="Dyson ivy" />
+<meta name="apple-mobile-web-app-title" content="Dyson ivy" />
+
+
+  <meta name="title" content="个人" />
+
+
+
+  <meta name="description" content="Dyson&#39;s Blogs" />
+<meta name="theme-color" content="#ffffff" /><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<link href="/ivy/css/styles.min.d08a3efd96c8c5b1fdce5a0f8de0bcafeaa6a600ecc8d2ac7264495de975c0ac.css" rel="stylesheet" />
+
+<link href="/ivy/css/custom.min.a3576bac66c3a82b69d83286136700cfa409d13273e51b6505482a06e6dd109d.css" rel="stylesheet" />
+<script src="/ivy/js/third-party/flowbite/v2.2.1/flowbite.min.js" defer></script>
+<script>
+  
+  if (
+    localStorage.getItem("color-theme") === "dark" ||
+    (!("color-theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+  </head>
+  <body class="flex h-screen flex-col bg-white dark:bg-gray-900"><nav
+  id="navbar"
+  class="fixed start-0 top-0 z-20 flex w-full justify-center border-b border-gray-200 bg-white/85 backdrop-blur-md md:h-38 dark:border-gray-700 dark:bg-gray-900/85">
+  <div
+    class="mx-auto flex w-[1280px] flex-wrap items-center justify-between place-self-center object-center p-4">
+    
+    
+    <a
+      href="https://dyson-wang.github.io/ivy/"
+      class="flex items-center justify-start space-x-3 rtl:space-x-reverse">
+      
+      <p class="w-[56px]">
+        
+        
+          
+        
+        <img
+          id="logo-light-icon"
+          src="/images/black_17.svg"
+          class="h-[56px]"
+          alt="Logo" />
+        <img
+          id="logo-dark-icon"
+          src="/images/white_17.svg"
+          class="hidden h-[56px]"
+          alt="Logo" />
+      </p><span
+          class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white"
+          >ivy</span
+        ></a>
+
+    
+    <div class="flex items-center space-x-3 md:order-2 rtl:space-x-reverse">
+      <button
+        id="theme-toggle"
+        type="button"
+        class="h-10 w-10 p-2.5 text-sm text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700">
+        <svg
+          id="theme-toggle-dark-icon"
+          class="hidden h-5 w-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+        </svg>
+        <svg
+          id="theme-toggle-light-icon"
+          class="hidden h-5 w-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+            fill-rule="evenodd"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+      
+      
+
+      
+      <button
+        data-collapse-toggle="navbar-sticky"
+        type="button"
+        class="inline-flex h-10 w-10 items-center justify-center p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none md:hidden dark:text-gray-400 dark:hover:bg-gray-700"
+        aria-controls="navbar-sticky"
+        aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="h-5 w-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14">
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+    </div>
+
+    <div
+  class="hidden w-full items-center justify-between md:order-1 md:flex md:w-auto"
+  id="navbar-sticky">
+  <ul
+    class="mt-4 flex flex-col rounded-lg border border-gray-300 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse dark:border-gray-700 dark:bg-gray-800/50 md:dark:bg-transparent">
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/banner/">
+            
+            About
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/posts/">
+            
+            Posts
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/archive">
+            
+            Archive
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          <a
+            aria-current="page"
+            class="block rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+            href="/ivy/goods/">
+            
+            Goods
+          </a>
+        
+      </li>
+    
+      <li>
+        
+          
+          <button
+            id="dropdownNavbarLink-d50ae403"
+            data-dropdown-toggle="dropdownNavbar-d50ae403"
+            class="flex w-full items-center justify-between rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+            Releases
+            <svg
+              class="ms-2.5 h-2.5 w-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4" />
+            </svg>
+          </button>
+
+          <div
+            id="dropdownNavbar-d50ae403"
+            class="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-white font-normal shadow dark:divide-gray-600 dark:bg-gray-800">
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton">
+              
+                <li>
+                  <a
+                    href="/ivy/"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >with waline</a
+                  >
+                </li>
+              
+                <li>
+                  <a
+                    href="/ivy/"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >with twikoo</a
+                  >
+                </li>
+              
+
+            </ul>
+          </div>
+        
+      </li>
+    
+
+    
+      <button
+        id="dropdownNavbarLink-category"
+        data-dropdown-toggle="dropdownNavbar-category"
+        class="flex w-full items-center justify-between rounded-lg px-3 py-2 text-gray-900 hover:bg-gray-100 md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+        Category
+        <svg
+          class="ms-2.5 h-2.5 w-2.5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 10 6">
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m1 1 4 4 4-4" />
+        </svg>
+      </button>
+
+      <div
+        id="dropdownNavbar-category"
+        class="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-white font-normal shadow dark:divide-gray-600 dark:bg-gray-800">
+        <ul
+          class="py-2 text-sm text-gray-700 dark:text-gray-400"
+          aria-labelledby="dropdownLargeButton">
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/new-define/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >New Define</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/server/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >Server</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%CE%B1/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >Α</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E4%B8%AA%E4%BA%BA/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >个人</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E5%85%B3%E4%BA%8E/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >关于</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E5%8D%9A%E5%AE%A2/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >博客</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E6%95%99%E7%A8%8B/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >教程</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E6%96%87%E6%A1%A3/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >文档</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E6%96%87%E7%8C%AE/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >文献</a
+              >
+            </li>
+          
+            <li>
+              <a
+                href="https://dyson-wang.github.io/ivy/categories/%E7%BC%96%E7%A8%8B/"
+                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                >编程</a
+              >
+            </li>
+          
+        </ul>
+      </div>
+    
+  </ul>
+</div>
+</div>
+</nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let navbarDom = document.getElementById("navbar");
+    let isNavScrolled = false;
+
+    if (window.innerWidth >= 768) {
+      navbarDom.classList.add("navbar-init");
+
+      var scrollTop = 0;
+
+      window.addEventListener("scroll", function () {
+        scrollTop = window.pageYOffset;
+
+        if (scrollTop >= 10 && !isNavScrolled) {
+          isNavScrolled = true;
+          navbarDom.classList.add("navbar-scroll");
+        } else if (scrollTop < 10 && isNavScrolled) {
+          isNavScrolled = false;
+          navbarDom.classList.remove("navbar-scroll");
+        }
+      });
+    } else {
+      navbarDom.classList.remove("navbar-init");
+    }
+  });
+</script>
+<section class="mx-auto mt-22 w-full grow bg-white dark:bg-gray-900 md:mt-38"><div class="mx-auto flex w-full flex-col p-4 md:max-w-screen-md">
+  
+    <div
+      class="flew-row mb-1 flex flex-wrap items-center space-x-2 rounded-lg border p-4 text-2xl font-bold text-neutral-700 dark:border-gray-700 dark:text-neutral-300">
+      <p>Tag</p>
+      <div class="h-2 w-2 rounded-full bg-green-600"></div>
+      <p>个人</p>
+    </div>
+  
+  <ul
+    class="relative flex flex-col gap-12 py-12 pl-6 text-sm before:absolute before:left-6 before:top-0 before:h-full before:-translate-x-1/2 before:border before:border-dashed before:border-slate-200 after:absolute after:bottom-6 after:left-6 after:top-6 after:-translate-x-1/2 after:border after:border-slate-200 lg:pl-0 lg:before:left-[8.5rem] lg:after:left-[8.5rem]">
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-04-13
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-04-13</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/%E6%B1%89%E5%8C%96%E7%89%88/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >汉化版</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">汉化版基于前一部分作者对片上网络领域四个问题的解决方案，我们可以给出目前研究的结果和局限性。 拓扑结构: NoC 拓扑从2D 网格发展到更复杂的3D 网格</div>
+    
+
+  </div>
+</li>
+
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-04-13
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-04-13</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/microsoft_rewards/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >Microsoft_Rewards</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">Microsoft_Rewardscal# 12周 = 84天 ((159 * 6 + 250 ) * 12 + 1000) = 15448 = $ $ / 200 = 77.24 89570 / $ ≈ 5.8（周期）</div>
+    
+
+  </div>
+</li>
+
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-04-08
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-04-08</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/references/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >References:</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">References: Wang, J., &amp; Ye, Y. (2020). Ant colony optimization-based thermal-aware adaptive routing mechanism for optical NoCs. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 40(9), 1836-1849. Zheng, H., Wang, K., &amp; Louri, A. (2021). Adapt-noc: A flexible network-on-chip design for heterogeneous manycore architectures. 2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA), 723-735. Duato J, Yalamanchili S, Ni L M. Interconnection Networks: An Engineering Approach. 2nd ed.</div>
+    
+
+  </div>
+</li>
+
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-04-08
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-04-08</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/homework/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >homework</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">homeworkBased on the solutions to the four problems in the field of on-chip networks presented in the previous part by different authors, we can present the results and limitations of the current research. Topology Structures: The evolution of NoC topologies from 2D meshes to more complex 3D meshes, tori, and hypercubes reflects the need to optimize performance, power, and area (Bjerregaard &amp; Mahadevan, 2006). While 2D meshes offer scalability, they</div>
+    
+
+  </div>
+</li>
+
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-04-03
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-04-03</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E4%BA%91%E8%AE%A1%E7%AE%97-2/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >物联网与云计算</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">物联网与云计算边缘计算与传统的集中式云计算相比，各自的优势和劣势是什么？请分析在不同的应用场景下，何时更适合采用边缘计算，何时更适合采用云计</div>
+    
+
+  </div>
+</li>
+
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-04-01
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-04-01</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/macos/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >macOS</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">macOSc:\&#34;Program Files&#34;\qemu\qemu-img convert -O vmdk -o compat6 BaseSystem.dmg recovery.vmdk</div>
+    
+
+  </div>
+</li>
+
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-01-26
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-01-26</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/%E7%9B%AE%E6%A0%87/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >目标</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">目标 日常编程开发</div>
+    
+
+  </div>
+</li>
+
+    
+      <li
+  class="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]">
+  <h4
+    class="hidden font-Oswald text-base font-light leading-7 text-gray-500 lg:block lg:w-28 lg:text-right dark:text-gray-100">
+    2024-01-06
+  </h4>
+  <div
+    class="flex flex-1 flex-col gap-2 rounded-lg border p-4 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+    <span
+      class="font-Oswald font-light text-gray-500 lg:hidden dark:text-gray-100"
+      >2024-01-06</span
+    >
+    <a
+      href="https://dyson-wang.github.io/ivy/posts/about/"
+      class="text-base font-medium leading-7 text-gray-800 hover:text-blue-600 dark:text-gray-50 dark:hover:text-blue-500"
+      >About</a
+    >
+
+    
+      <div
+        class="line-clamp-3 flex-wrap text-gray-500 dark:format-invert dark:text-gray-400">AboutWangXingHaoDyson Wang樱川琴子aka.SakuraGw_Kotoko</div>
+    
+
+  </div>
+</li>
+
+    
+  </ul>
+  
+
+
+
+</div>
+
+<div data-dial-init class="group fixed bottom-24 end-8 md:end-20">
+  <div
+    id="speed-dial-menu-bottom-right"
+    class="mb-4 flex hidden flex-col items-center space-y-2">
+    
+    
+      <button
+        id="to-top-button"
+        type="button"
+        data-tooltip-target="tooltip-top"
+        data-tooltip-placement="left"
+        class="flex hidden h-[52px] w-[52px] items-center justify-center rounded-full border border-gray-200 bg-white text-gray-500 shadow-sm hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-400">
+        <svg
+          class="h-5 w-5"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 1024 1024"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M629.333333 853.333333h-234.666666c-17.066667 0-32 14.933333-32 32s14.933333 32 32 32h234.666666c17.066667 0 32-14.933333 32-32s-14.933333-32-32-32zM842.666667 360.533333L535.466667 113.066667c-12.8-8.533333-27.733333-8.533333-40.533334 0L183.466667 360.533333c-6.4 6.4-12.8 14.933333-12.8 23.466667 0 2.133333 0 6.4 2.133333 8.533333 2.133333 12.8 14.933333 21.333333 27.733333 21.333334h155.733334v236.8c0 19.2 12.8 29.866667 32 29.866666h249.6c21.333333 0 34.133333-12.8 34.133333-29.866666v-234.666667h151.466667c12.8 0 25.6-8.533333 27.733333-21.333333s0-25.6-8.533333-34.133334zM629.333333 746.666667h-234.666666c-17.066667 0-32 14.933333-32 32s14.933333 32 32 32h234.666666c17.066667 0 32-14.933333 32-32s-14.933333-32-32-32z"></path>
+        </svg>
+        <span class="sr-only">Top</span>
+      </button>
+      <div
+        id="tooltip-top"
+        role="tooltip"
+        class="tooltip invisible absolute z-10 inline-block w-auto rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+        Top
+        <div class="tooltip-arrow" data-popper-arrow></div>
+      </div>
+    
+
+    
+
+
+    
+    <button
+      type="button"
+      data-drawer-target="drawer-body-scrolling"
+      data-drawer-show="drawer-body-scrolling"
+      data-drawer-body-scrolling="true"
+      aria-controls="drawer-body-scrolling"
+      data-tooltip-target="tooltip-tags"
+      data-tooltip-placement="left"
+      class="flex h-[52px] w-[52px] items-center justify-center rounded-full border border-gray-200 bg-white text-gray-500 shadow-sm hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-400">
+      <svg
+        class="h-5 w-5"
+        aria-hidden="true"
+        fill="currentColor"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M96.512 454.272h839.84a78.752 78.752 0 0 1 78.752 78.752v8.704a78.752 78.752 0 0 1-78.752 78.752H96.512a78.752 78.752 0 0 1-78.752-78.752v-8.704a78.752 78.752 0 0 1 78.752-78.752zM571.872 232.672H904.32a55.424 55.424 0 0 1 0 110.848H571.872a55.424 55.424 0 0 1 0-110.848zM350.208 731.36h332.448a55.424 55.424 0 0 1 0 110.848H350.208a55.424 55.424 0 0 1 0-110.848zM128.544 177.248h221.664a55.424 55.424 0 0 1 0 110.848H128.544a55.424 55.424 0 0 1 0-110.848z"
+          p-id="22696"></path>
+      </svg>
+      <span class="sr-only">Tags</span>
+    </button>
+    <div
+      id="tooltip-tags"
+      role="tooltip"
+      class="tooltip invisible absolute z-10 inline-block w-auto rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+      Tags
+      <div class="tooltip-arrow" data-popper-arrow></div>
+    </div>
+
+    
+    
+      <button
+        id="to-bottom-button"
+        type="button"
+        data-tooltip-target="tooltip-bottom"
+        data-tooltip-placement="left"
+        class="flex h-[52px] w-[52px] items-center justify-center rounded-full border border-gray-200 bg-white text-gray-500 shadow-sm hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-400">
+        <svg
+          class="h-5 w-5"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 1024 1024"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M635.733333 341.333333c19.2 0 32 12.8 32 29.866667v236.8h155.733334c12.8 0 25.6 8.533333 27.733333 21.333333 2.133333 4.266667 2.133333 6.4 2.133333 10.666667 0 8.533333-6.4 19.2-12.8 25.6L529.066667 910.933333c-12.8 8.533333-27.733333 8.533333-40.533334 0L181.333333 663.466667c-8.533333-8.533333-12.8-21.333333-8.533333-34.133334 2.133333-12.8 14.933333-21.333333 27.733333-21.333333h151.466667V371.2c0-19.2 12.8-29.866667 34.133333-29.866667h249.6z m-6.4-128c17.066667 0 32 14.933333 32 32s-14.933333 32-32 32h-234.666666c-17.066667 0-32-14.933333-32-32s14.933333-32 32-32h234.666666z m0-106.666666c17.066667 0 32 14.933333 32 32S646.4 170.666667 629.333333 170.666667h-234.666666c-17.066667 0-32-14.933333-32-32S377.6 106.666667 394.666667 106.666667h234.666666z"></path>
+        </svg>
+        <span class="sr-only">Bottom</span>
+      </button>
+      <div
+        id="tooltip-bottom"
+        role="tooltip"
+        class="tooltip invisible absolute z-10 inline-block w-auto rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+        Bottom
+        <div class="tooltip-arrow" data-popper-arrow></div>
+      </div>
+    
+  </div>
+
+  <button
+    type="button"
+    data-dial-toggle="speed-dial-menu-bottom-right"
+    aria-controls="speed-dial-menu-bottom-right"
+    aria-expanded="false"
+    class="flex h-14 w-14 items-center justify-center rounded-full bg-blue-700 text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+    <svg
+      class="h-5 w-5 transition-transform group-hover:rotate-45"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 18 18">
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M9 1v16M1 9h16" />
+    </svg>
+    <span class="sr-only">Open actions menu</span>
+  </button>
+</div>
+<div
+  id="drawer-body-scrolling"
+  class="fixed left-0 top-0 z-40 h-screen w-64 -translate-x-full overflow-y-auto bg-white p-4 transition-transform md:w-80 lg:w-96 dark:bg-gray-800"
+  tabindex="-1"
+  aria-labelledby="drawer-body-scrolling-label">
+  <h5
+    id="drawer-body-scrolling-label"
+    class="text-base font-semibold uppercase text-gray-500 dark:text-gray-400">
+    TAGS
+  </h5>
+  <button
+    type="button"
+    data-drawer-hide="drawer-body-scrolling"
+    aria-controls="drawer-body-scrolling"
+    class="absolute end-2.5 top-2.5 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white">
+    <svg
+      class="h-3 w-3"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 14 14">
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+    </svg>
+    <span class="sr-only">Close tags</span>
+  </button>
+
+  <div class="overflow-y-auto py-3">
+    <div class="flex flex-wrap justify-center gap-2 p-3">
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/new-define/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">New Define</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >1</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/server/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">Server</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >8</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%CE%B1/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">Α</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >5</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%E4%B8%AA%E4%BA%BA/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">个人</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >8</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%E5%85%B3%E4%BA%8E/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">关于</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >1</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%E5%8D%9A%E5%AE%A2/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">博客</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >14</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%E6%95%99%E7%A8%8B/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">教程</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >1</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%E6%96%87%E6%A1%A3/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">文档</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >14</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%E6%96%87%E7%8C%AE/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">文献</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >3</span
+          >
+        </a>
+      
+        <a
+          href="https://dyson-wang.github.io/ivy/tags/%E7%BC%96%E7%A8%8B/"
+          class="group flex items-center rounded-lg border p-2 text-xs text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+          <span class="flex-1 whitespace-nowrap">编程</span>
+          <span
+            class="ms-2 inline-flex h-2 w-2 items-center justify-center rounded-full bg-blue-100 p-2 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            >5</span
+          >
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+<div
+  id="drawer-body-scrolling-toc"
+  class="fixed left-0 top-0 z-40 h-screen w-64 -translate-x-full overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 md:w-80 lg:w-96"
+  tabindex="-1"
+  aria-labelledby="drawer-body-scrolling-toc-label">
+  <h5
+    id="drawer-body-scrolling-toc-label"
+    class="text-base font-semibold text-gray-500 dark:text-gray-400">
+    On this page
+  </h5>
+  <button
+    type="button"
+    data-drawer-hide="drawer-body-scrolling-toc"
+    aria-controls="drawer-body-scrolling-toc"
+    class="absolute end-2.5 top-2.5 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white">
+    <svg
+      class="h-3 w-3"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 14 14">
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+    </svg>
+    <span class="sr-only">Close menu</span>
+  </button>
+  <div class="overflow-y-auto py-4">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+
+
+
+  
+
+<script type="module" src="/ivy/js/to-top-or-bottom.min.38b6a1a23c3859c79a2a6eb832cb844e469e3832c6c820c96e1ee83522ad1c2d.js"></script>
+
+</section>
+
+
+    <footer
+  class="mx-auto flex w-full max-w-screen-xl flex-col-reverse items-center gap-y-3 border-t border-gray-200 py-6 md:px-12 lg:flex-row lg:justify-between dark:border-gray-700">
+  
+  <div
+    class="flex flex-col items-center justify-between space-y-3 text-xs text-gray-400 lg:items-start dark:text-gray-500">
+    
+    <div class="items-center font-Montserrat font-light">
+      &copy;
+      
+      
+      
+        2024
+      
+
+      Dyson Wang. All Rights Reserved
+    </div>
+  </div>
+
+  
+  <div
+    class="flex flex-row items-center font-Montserrat text-xs font-light text-gray-400 dark:text-gray-500">
+    <span>Powered By</span>
+    <a href="https://gohugo.io/" aria-label="hugo link">
+      <img
+        src="/images/default/hugo-logo-wide.svg"
+        alt="Hugo"
+        class="mx-1 h-3" />
+    </a>
+    <span> &#8739; Based on Theme</span>
+    <a
+      href="https://github.com/mrhelloboy/seven"
+      aria-label="The github address of seven theme"
+      class="">
+      <img
+        id="footer-theme-light-logo"
+        src="/images/default/seven-logo.svg"
+        alt="seven theme logo"
+        class="mx-1 h-5" />
+
+      <img
+        id="footer-theme-dark-logo"
+        src="/images/default/seven-logo-dark.svg"
+        alt="seven theme logo"
+        class="mx-1 hidden h-5" />
+    </a>
+  </div>
+
+  
+  <div
+    class="mt-4 flex space-x-5 sm:justify-center md:mt-0 rtl:space-x-reverse">
+    
+      
+      
+
+      
+
+      
+
+      
+    
+      
+        <a
+          href="mailto:dyson.wang@outlook.com"
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 1024 1024"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M513 583.8l448.5-448.5c-11.6-4.7-24.3-7.3-37.5-7.3H100c-12.7 0-24.9 2.4-36.1 6.7L513 583.8z"
+              p-id="88208"></path>
+            <path
+              d="M513 674.3L14.6 175.9C5.3 191.1 0 208.9 0 228v568c0 55.2 44.8 100 100 100h824c55.2 0 100-44.8 100-100V228c0-18.5-5.1-35.9-13.9-50.8L513 674.3z"
+              p-id="88209"></path>
+          </svg>
+          <span class="sr-only">Email page</span>
+        </a>
+      
+      
+
+      
+
+      
+
+      
+    
+      
+      
+        <a
+          href=""
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 8 19">
+            <path
+              fill-rule="evenodd"
+              d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="sr-only">Facebook page</span>
+        </a>
+      
+
+      
+
+      
+
+      
+    
+      
+      
+
+      
+
+      
+        <a
+          href="https://github.com/Dyson-Wang"
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20">
+            <path
+              fill-rule="evenodd"
+              d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="sr-only">GitHub account</span>
+        </a>
+      
+
+      
+    
+      
+      
+
+      
+
+      
+
+      
+        <button
+          data-popover-target="wechat-popover-no-arrow"
+          type="button"
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            viewBox="0 0 1184 1024"
+            fill="currentColor"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            p-id="1495">
+            <path
+              d="M331.424 263.424q0-23.424-14.272-37.728t-37.728-14.272q-24.576 0-43.424 14.56t-18.848 37.44q0 22.272 18.848 36.864t43.424 14.56q23.424 0 37.728-14.016t14.272-37.44zM756 553.152q0-16-14.56-28.576t-37.44-12.576q-15.424 0-28.288 12.864t-12.864 28.288q0 16 12.864 28.864t28.288 12.864q22.848 0 37.44-12.576t14.56-29.152zM621.152 263.424q0-23.424-14.016-37.728t-37.44-14.272q-24.576 0-43.424 14.56t-18.848 37.44q0 22.272 18.848 36.864t43.424 14.56q23.424 0 37.44-14.016t14.016-37.44zM984 553.152q0-16-14.848-28.576t-37.152-12.576q-15.424 0-28.288 12.864t-12.864 28.288q0 16 12.864 28.864t28.288 12.864q22.272 0 37.152-12.576t14.848-29.152zM832 326.272q-17.728-2.272-40-2.272-96.576 0-177.728 44t-127.712 119.136-46.56 164.288q0 44.576 13.152 86.848-20 1.728-38.848 1.728-14.848 0-28.576-0.864t-31.424-3.712-25.44-4-31.136-6.016-28.576-6.016l-144.576 72.576 41.152-124.576q-165.728-116-165.728-280 0-96.576 55.712-177.728t150.848-127.712 207.712-46.56q100.576 0 190.016 37.728t149.728 104.288 78.016 148.864zM1170.272 646.848q0 66.848-39.136 127.712t-106.016 110.56l31.424 103.424-113.728-62.272q-85.728 21.152-124.576 21.152-96.576 0-177.728-40.288t-127.712-109.44-46.56-150.848 46.56-150.848 127.712-109.44 177.728-40.288q92 0 173.152 40.288t130.016 109.728 48.864 150.56z"
+              p-id="1496"></path>
+          </svg>
+        </button>
+
+        <div
+          data-popover
+          id="wechat-popover-no-arrow"
+          role="tooltip"
+          class="invisible absolute z-10 inline-block hidden w-52 overflow-hidden rounded-lg border border-gray-100 bg-white text-sm text-gray-500 opacity-0 shadow-sm transition-opacity duration-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400">
+          <ul class="text-sm text-gray-700 dark:text-gray-200">
+            
+              <li>
+                <img src="/images/society/wechat/wechat.png" alt="" />
+              </li>
+            
+          </ul>
+        </div>
+      
+    
+      
+      
+
+      
+        <a
+          href=""
+          class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <svg
+            class="h-4 w-4"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 20 20">
+            <path
+              fill="currentColor"
+              d="M12.186 8.672 18.743.947h-2.927l-5.005 5.9-4.44-5.9H0l7.434 9.876-6.986 8.23h2.927l5.434-6.4 4.82 6.4H20L12.186 8.672Zm-2.267 2.671L8.544 9.515 3.2 2.42h2.2l4.312 5.719 1.375 1.828 5.731 7.613h-2.2l-4.699-6.237Z" />
+          </svg>
+
+          <span class="sr-only">X page</span>
+        </a>
+      
+
+      
+
+      
+    
+
+    
+    
+      <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+  <svg
+    class="h-4 w-4"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 21 16">
+    <path
+      d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+  </svg>
+  <span class="sr-only">Discord community</span>
+</a>
+
+<a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+  <svg
+    class="h-4 w-4"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 20 20">
+    <path
+      fill-rule="evenodd"
+      d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+      clip-rule="evenodd" />
+  </svg>
+  <span class="sr-only">Dribbble account</span>
+</a>
+
+    
+
+  </div>
+</footer>
+
+<script>
+  var matches = document.querySelectorAll("button[data-popover-target]");
+  for (var i = 0; i < matches.length; i++) {
+    let id = matches[i].getAttribute("data-popover-target");
+
+    matches[i].addEventListener("mouseenter", function () {
+      document.getElementById(id).classList.remove("hidden");
+    });
+
+    matches[i].addEventListener("mouseleave", function () {
+      document.getElementById(id).classList.add("hidden");
+    });
+  }
+</script>
+
+
+  
+
+<script src="/ivy/js/dark-mode.min.f4601e5679d2fc365123dbb2569483af6ba487a6873fd698326ba052b1868055.js" defer></script>
+
+</body>
+</html>

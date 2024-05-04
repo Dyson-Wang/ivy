@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人 on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/tags/%E4%B8%AA%E4%BA%BA/</link>
+    <description>Recent content in 个人 on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/tags/%E4%B8%AA%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>汉化版</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E6%B1%89%E5%8C%96%E7%89%88/</link>
+      <pubDate>Sat, 13 Apr 2024 02:07:47 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E6%B1%89%E5%8C%96%E7%89%88/</guid>
+      <description>汉化版基于前一部分作者对片上网络领域四个问题的解决方案，我们可以给出目前研究的结果和局限性。 拓扑结构: NoC 拓扑从2D 网格发展到更复杂的3D 网格</description>
+    </item>
+    <item>
+      <title>Microsoft_Rewards</title>
+      <link>https://dyson-wang.github.io/ivy/posts/microsoft_rewards/</link>
+      <pubDate>Sat, 13 Apr 2024 01:31:02 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/microsoft_rewards/</guid>
+      <description>Microsoft_Rewardscal# 12周 = 84天 ((159 * 6 + 250 ) * 12 + 1000) = 15448 = $ $ / 200 = 77.24 89570 / $ ≈ 5.8（周期）</description>
+    </item>
+    <item>
+      <title>References:</title>
+      <link>https://dyson-wang.github.io/ivy/posts/references/</link>
+      <pubDate>Mon, 08 Apr 2024 07:42:59 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/references/</guid>
+      <description>References: Wang, J., &amp;amp; Ye, Y. (2020). Ant colony optimization-based thermal-aware adaptive routing mechanism for optical NoCs. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 40(9), 1836-1849. Zheng, H., Wang, K., &amp;amp; Louri, A. (2021). Adapt-noc: A flexible network-on-chip design for heterogeneous manycore architectures. 2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA), 723-735. Duato J, Yalamanchili S, Ni L M. Interconnection Networks: An Engineering Approach. 2nd ed.</description>
+    </item>
+    <item>
+      <title>homework</title>
+      <link>https://dyson-wang.github.io/ivy/posts/homework/</link>
+      <pubDate>Mon, 08 Apr 2024 07:20:35 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/homework/</guid>
+      <description>homeworkBased on the solutions to the four problems in the field of on-chip networks presented in the previous part by different authors, we can present the results and limitations of the current research. Topology Structures: The evolution of NoC topologies from 2D meshes to more complex 3D meshes, tori, and hypercubes reflects the need to optimize performance, power, and area (Bjerregaard &amp;amp; Mahadevan, 2006). While 2D meshes offer scalability, they</description>
+    </item>
+    <item>
+      <title>物联网与云计算</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E4%BA%91%E8%AE%A1%E7%AE%97-2/</link>
+      <pubDate>Wed, 03 Apr 2024 07:33:53 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E4%BA%91%E8%AE%A1%E7%AE%97-2/</guid>
+      <description>物联网与云计算边缘计算与传统的集中式云计算相比，各自的优势和劣势是什么？请分析在不同的应用场景下，何时更适合采用边缘计算，何时更适合采用云计</description>
+    </item>
+    <item>
+      <title>macOS</title>
+      <link>https://dyson-wang.github.io/ivy/posts/macos/</link>
+      <pubDate>Mon, 01 Apr 2024 05:27:30 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/macos/</guid>
+      <description>macOSc:\&amp;#34;Program Files&amp;#34;\qemu\qemu-img convert -O vmdk -o compat6 BaseSystem.dmg recovery.vmdk</description>
+    </item>
+    <item>
+      <title>目标</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E7%9B%AE%E6%A0%87/</link>
+      <pubDate>Fri, 26 Jan 2024 11:57:34 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E7%9B%AE%E6%A0%87/</guid>
+      <description>目标 日常编程开发</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://dyson-wang.github.io/ivy/posts/about/</link>
+      <pubDate>Sat, 06 Jan 2024 11:28:57 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/about/</guid>
+      <description>AboutWangXingHaoDyson Wang樱川琴子aka.SakuraGw_Kotoko</description>
+    </item>
+  </channel>
+</rss>

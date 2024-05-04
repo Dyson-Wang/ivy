@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Define on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/categories/new-define/</link>
+    <description>Recent content in New Define on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/categories/new-define/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subline Text 3</title>
+      <link>https://dyson-wang.github.io/ivy/posts/subline-text-3/</link>
+      <pubDate>Tue, 30 Apr 2024 07:51:40 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/subline-text-3/</guid>
+      <description>Subline Text 3install package controlctrl+shift+p 插件nice Package Control ChineseLocalizations SideBarEnhancements Emmet BracketHighlighter</description>
+    </item>
+  </channel>
+</rss>

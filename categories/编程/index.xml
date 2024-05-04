@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程 on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/categories/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go</title>
+      <link>https://dyson-wang.github.io/ivy/posts/go/</link>
+      <pubDate>Mon, 05 Sep 2022 12:56:00 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/go/</guid>
+      <description>Go环境配置GO_HOME C:\Program Files\Go Path %GO_HOME%\bin go version go env -w GO111MODULE=on go env -w GOPROXY=https://goproxy.cn,direct go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/ go env</description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://dyson-wang.github.io/ivy/posts/java/</link>
+      <pubDate>Mon, 05 Sep 2022 12:53:22 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/java/</guid>
+      <description>Java环境配置JAVA_HOME C:\Program Files\Java\jdk1.8.0_131 Path %JAVA_HOME%\bin; CLASSPATH .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar; grammar关键字 访问控制 private 私有的 protected 受保护的 public 公共的 default 默认 类、方法和变量修饰符 abstract 声明抽象 class 类</description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://dyson-wang.github.io/ivy/posts/python/</link>
+      <pubDate>Mon, 05 Sep 2022 12:52:31 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/python/</guid>
+      <description>Pythonlinux 安装curl -o [filename] [url] tar -[z]xvf *.tar.xz /usr/local/src/ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev 依赖项gcc zlib zlib1g-dev bz2 API Serverflask 框架， 安装flask-corspip install flask pip install flask-cors from flask</description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://dyson-wang.github.io/ivy/posts/javascript/</link>
+      <pubDate>Mon, 05 Sep 2022 12:52:19 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/javascript/</guid>
+      <description>JavaScriptBasicfetchReact中的fetch是相对于index.html页面的路径，它返回一个可阅读流（Stream）r</description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://dyson-wang.github.io/ivy/posts/c&#43;&#43;/</link>
+      <pubDate>Mon, 05 Sep 2022 12:50:32 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/c&#43;&#43;/</guid>
+      <description>C++封装 encapsulation 继承 多态性a.cpp 类definition a.h 头文件declaration a.ii 预处理后的代码文件 a.h + a.cpp a.o 目标代码 a.out 可执行程序 a.s 汇编代</description>
+    </item>
+  </channel>
+</rss>

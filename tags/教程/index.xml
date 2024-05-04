@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitLab</title>
+      <link>https://dyson-wang.github.io/ivy/posts/gitlab/</link>
+      <pubDate>Tue, 02 Jan 2024 07:06:51 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/gitlab/</guid>
+      <description>GitLabyum安装sudo firewall-cmd --permanent --add-service=http sudo firewall-cmd --permanent --add-service=https sudo systemctl reload firewalld sudo yum install postfix sudo systemctl enable postfix sudo systemctl start postfix curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash yum install gitlab-ce #/etc/gitlab/gitlab.rb #external_url &amp;#34;http://10.0.0.1&amp;#34; gitlab-ctl reconfigure systemctl enable gitlab-runsvdir.service apt安装config[root</description>
+    </item>
+  </channel>
+</rss>

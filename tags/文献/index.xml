@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文献 on ivy</title>
+    <link>https://dyson-wang.github.io/ivy/tags/%E6%96%87%E7%8C%AE/</link>
+    <description>Recent content in 文献 on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 04 May 2024 22:07:14 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/ivy/tags/%E6%96%87%E7%8C%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DNNShifter</title>
+      <link>https://dyson-wang.github.io/ivy/posts/dnnshifter/</link>
+      <pubDate>Thu, 11 Jan 2024 06:15:32 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/dnnshifter/</guid>
+      <description>DNNShifter Open Lottery Ticket Hypothesis (OpenLTH) 卷积、批处理归一化层</description>
+    </item>
+    <item>
+      <title>深度学习</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Mon, 08 Jan 2024 07:04:21 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</guid>
+      <description>深度学习深度学习是机器学习领域的一个分支，涉及使用神经网络模型来学习和执行任务。以下是一些深度学习的教程和资源，适用于不同的学习水平： 基础入</description>
+    </item>
+    <item>
+      <title>文献</title>
+      <link>https://dyson-wang.github.io/ivy/posts/%E6%96%87%E7%8C%AE/</link>
+      <pubDate>Wed, 03 Jan 2024 07:40:54 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/ivy/posts/%E6%96%87%E7%8C%AE/</guid>
+      <description>文献 7-移动边缘计算_架构_应用和挑战_高志鹏 7-运营商边缘网络白皮书 史佳眉师姐论文 Edge_Intelligence_A_Computational_Task_Offloading_Scheme_for_Dependent_IoT_Application iCache_An_Importance-Sampling-Informed_Cache_for_Accelerating_I_O-Bound_DNN_Model_Training 边缘计算_万物互联时代新型计算模型_施巍松 边缘计算_</description>
+    </item>
+  </channel>
+</rss>
